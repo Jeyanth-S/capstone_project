@@ -1,0 +1,48 @@
+.venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Jupyter notebooks
+.ipynb_checkpoints
+# *.ipynb
+
+# Python environment
+env/
+venv/
+
+# Data files
+*.csv
+*.h5
+*.hdf5
+*.keras
+*.keras*
+
+# Logs
+*.log
+
+# Mac OS
+.DS_Store
+
+# VSCode
+.vscode/
+
+# Kaggle outputs
+/kaggle/
+
+# Model files
+*.pth
+*.pt
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+
+# Misc
+*.sqlite3
+
+
+# datasets
+datasets/
