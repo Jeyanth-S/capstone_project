@@ -55,4 +55,4 @@ echo "Press Ctrl+C to stop the server"
 echo ""
 
 # Run the app
-python app.py
+python app/app.py
