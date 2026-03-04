@@ -1,0 +1,29 @@
+# Core data science / deep learning libraries
+numpy
+pandas
+matplotlib
+seaborn
+scikit-learn
+opencv-python
+pillow
+
+# TensorFlow & Keras
+tensorflow
+
+# PyTorch stack
+torch
+torchvision
+
+# Kaggle utilities
+kagglehub
+huggingface-hub
+
+# Jupyter / notebook environment
+jupyter
+ipykernel
+nbformat
+nbconvert
+
+# API / deployment
+fastapi
+uvicorn
