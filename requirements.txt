@@ -1,29 +1,48 @@
+# Python 3.11.14 Compatible Requirements
+
 # Core data science / deep learning libraries
-numpy
-pandas
-matplotlib
-seaborn
-scikit-learn
-opencv-python
-pillow
+numpy==2.4.2
+pandas==3.0.1
+matplotlib==3.10.8
+seaborn==0.13.2
+scikit-learn==1.8.0
+opencv-python==4.13.0.92
+pillow==12.1.1
 
-# TensorFlow & Keras
-tensorflow
+# TensorFlow & Keras (CPU optimized)
+tensorflow==2.20.0
+keras==3.13.2
 
-# PyTorch stack
-torch
-torchvision
+# PyTorch stack (CPU optimized)
+torch==2.10.0
+torchvision==0.25.0
+torchaudio==2.10.0
 
-# Kaggle utilities
-kagglehub
-huggingface-hub
+# Kaggle utilities for dataset download
+kagglehub==1.0.0
+kagglesdk==0.1.16
+huggingface-hub==1.5.0
 
 # Jupyter / notebook environment
-jupyter
-ipykernel
-nbformat
-nbconvert
+jupyter==1.1.1
+jupyterlab==4.5.5
+ipykernel==7.2.0
+ipywidgets==8.1.8
+nbformat==5.10.4
+nbconvert==7.17.0
+notebook==7.5.4
 
-# API / deployment
-fastapi
-uvicorn
+# API / REST backend (FastAPI)
+fastapi==0.135.1
+uvicorn[standard]==0.41.0
+pydantic==2.12.5
+requests==2.32.5
+
+# Utilities
+python-multipart==0.0.6
+typing-extensions==4.15.0
+
+# Optional: Production deployment
+# Uncomment for production:
+# gunicorn==23.0.0
+# python-dotenv==1.0.1
