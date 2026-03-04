@@ -42,3 +42,7 @@ dist/
 
 # Misc
 *.sqlite3
+
+
+# datasets
+datasets/
